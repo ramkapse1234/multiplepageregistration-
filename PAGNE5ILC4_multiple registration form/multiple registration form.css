@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: skyblue;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.label {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e2e2e;
+    padding: 12px;
+
+
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px;
+    padding: 4px;
+}
+
+.inputfield {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin-right: 23px;
+    width: 50%;
+}
+
+.Datefield {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin-right: 23px;
+    width: 100%;
+}
+
+.labelgen {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: 16px;
+
+
+}
+
+
+.buttoncolor {
+    color: #000000;
+    margin-top: 45px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonsep {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.padding {
+    margin-bottom: 20px;
+}
